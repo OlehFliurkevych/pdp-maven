@@ -10,8 +10,6 @@
   <packaging>pom</packaging>
 
   <properties>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
     <mavenSurefirePluginVersion>2.22.0</mavenSurefirePluginVersion>
   </properties>
 
@@ -21,19 +19,5 @@
     <module>../utils</module>
     <module>../services</module>
   </modules>
-
-  <build>
-    <!-- Plugin management section -->
-    <pluginManagement>
-      <plugins>
-        <!-- Surefire plugin for JUnit Test Cases -->
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>${mavenSurefirePluginVersion}</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 
 </project>
