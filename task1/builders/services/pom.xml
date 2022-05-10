@@ -8,12 +8,23 @@
   <artifactId>services</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Service module</name>
+  
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
 
   <dependencies>
     <dependency>
       <groupId>com.builders</groupId>
       <artifactId>utils</artifactId>
       <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.8.2</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 

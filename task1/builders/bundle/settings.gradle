@@ -1,0 +1,6 @@
+rootProject.name='bundle'
+
+include ':admin'
+include ':utils'
+include ':services'
+include ':web'
