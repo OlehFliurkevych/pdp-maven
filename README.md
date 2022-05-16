@@ -1,6 +1,6 @@
 # pdp-maven 
-project for resolving tasks from Build Tools module in scope of preparing to assessment. 
+project for resolving tasks from _**Build Tools**_ module in scope of preparing to assessment. 
 
-### Consist of the following submodules:
+### Consists of the following submodules:
  - Maven
  - Gradle
