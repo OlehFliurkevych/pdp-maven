@@ -1,7 +1,6 @@
 # PDP Maven&Gradle
 
 
-
 ### Maven:
 1. Go to the **bundle** module
 2. Use the commands below:
